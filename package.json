@@ -1,0 +1,28 @@
+{
+  "name": "tag-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "check-tags": "node src",
+    "check-tags:samples": "npm run check-tags:sample:1 & npm run check-tags:sample:2 & npm run check-tags:sample:3 & npm run check-tags:sample:4 & npm run check-tags:sample:5",
+    "check-tags:sample:1": "npm run check-tags ./samples/sample1.txt",
+    "check-tags:sample:2": "npm run check-tags ./samples/sample2.txt",
+    "check-tags:sample:3": "npm run check-tags ./samples/sample3.txt",
+    "check-tags:sample:4": "npm run check-tags ./samples/sample4.txt",
+    "check-tags:sample:5": "npm run check-tags ./samples/sample5.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laserhog/tag-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laserhog/tag-checker/issues"
+  },
+  "homepage": "https://github.com/Laserhog/tag-checker#readme",
+  "dependencies": {
+    "ramda": "0.26.1"
+  }
+}

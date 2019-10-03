@@ -1,0 +1,1 @@
+The following text<C><B>is centred and in boldface</B></C>
